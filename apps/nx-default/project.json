@@ -18,7 +18,10 @@
           "apps/nx-default/src/assets"
         ],
         "styles": ["apps/nx-default/src/styles.scss"],
-        "scripts": []
+        "scripts": [],
+        "stylePreprocessorOptions": {
+          "includePaths": ["scss"]
+        }
       },
       "configurations": {
         "production": {
